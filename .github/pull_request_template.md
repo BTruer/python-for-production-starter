@@ -1,4 +1,4 @@
-<!--- Provide a one-line summary of your changes in the Title above. Make sure to add the ticket number (DS-XXX) in the title. -->
+<!--- Provide a one-line summary of your changes in the Title above. Make sure to add the ticket number (XYZ-123) in the title. -->
 ## Description of Changes
 <!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
 - [ ] Bug fix (non-breaking change which fixes an issue)
@@ -14,15 +14,11 @@
 <!--- Include details of your testing environment -->
 <!--- and results of any automated test suites or manual test steps executed -->
 
-## Discoveries/Observations/Notes (optional)
-
-
-## Related PRs (optional)
-
 
 ## Review the following
 <!--- Review the following -->
 - [ ] I have added the required reviewer(s) (there may be more than 1 primary reviewer) as an assignee
 - [ ] I have added other reviewers (if necessary) to the PR
+- [ ] I have added the person who's code I'm changing as a reviewer if I am changing perviously exisiting code
 - [ ] The title of the PR is in the correct format (REN-XXX Title of Changes)
 
