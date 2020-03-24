@@ -1,0 +1,19 @@
+version: 2.1
+jobs:
+  run-tox:
+    docker:
+      - image: 'python:3.8.0'
+    steps:
+      - checkout
+      - run:
+          name: Run Tox
+          command: |
+            pip install --upgrade pip
+            pip install pipenv
+            pipenv install --dev
+            pipenv run tox
+workflows:
+  version: 2
+  main:
+    jobs:
+      - run-tox

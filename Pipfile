@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+flake8-docstrings = "*"
+black = "*"
+pre-commit = "*"
+mypy = "*"
+tox = "*"
+pydocstyle = "*"
+pytest = "*"
+
+[packages]
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
