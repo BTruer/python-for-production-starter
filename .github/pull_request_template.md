@@ -8,17 +8,14 @@
 - [ ] Refactor (no functional changes introduced)
 <!--- Describe your changes in detail -->
 
-
 ## Test Procedure
 <!--- Please describe in detail how you tested your changes. -->
 <!--- Include details of your testing environment -->
 <!--- and results of any automated test suites or manual test steps executed -->
-
 
 ## Review the following
 <!--- Review the following -->
 - [ ] I have added the required reviewer(s) (there may be more than 1 primary reviewer) as an assignee
 - [ ] I have added other reviewers (if necessary) to the PR
 - [ ] I have added the person who's code I'm changing as a reviewer if I am changing perviously exisiting code
-- [ ] The title of the PR is in the correct format (REN-XXX Title of Changes)
-
+- [ ] The title of the PR is in the correct format (XYZ-123 Title of Changes)

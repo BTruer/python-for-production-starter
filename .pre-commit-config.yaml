@@ -2,7 +2,7 @@
     rev: stable
     hooks:
     - id: black
-      language_version: python3.7
+      language_version: python3.8
 -   repo: https://github.com/pycqa/pydocstyle
     rev: 4.0.0  # pick a git hash / tag to point to
     hooks:
