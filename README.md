@@ -4,9 +4,9 @@ Prereqs:
 2. [pipenv](https://github.com/pypa/pipenv)
 
 ## How to use
-
-1. `pyenv install 3.8.0` (basically make sure you have the python version you want)
-1.  might need to `pipenv --python /Users/user/.pyenv/versions/3.8.0/bin/python3.8`
+0. Pick a python version (set to 3.8.0 by default) and update the following files to match that version: tox.ini, pyproject.toml, .pre-commit-config.yaml, .python-version, Pipfile, mypy.ini
+1. Install the python version you want `pyenv install 3.8.0` 
+1. Point pipenv to the python version `pipenv --python /Users/user/.pyenv/versions/3.8.0/bin/python3.8`
 2. `pipenv install --dev`
 3. `pipenv shell`
 4. `pre-commit install`
@@ -22,4 +22,4 @@ The following tools have been installed:
 8. [pytest](https://docs.pytest.org/en/latest/) - testing framework
 
 TODO:
-Add bandit
+Add [bandit](https://github.com/PyCQA/bandit) for security and [logging standards](https://docs.python-guide.org/writing/logging/)
