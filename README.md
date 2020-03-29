@@ -6,6 +6,7 @@ Prereqs:
 ## How to use
 
 1. `pyenv install 3.8.0` (basically make sure you have the python version you want)
+1.  might need to `pipenv --python /Users/user/.pyenv/versions/3.8.0/bin/python3.8`
 2. `pipenv install --dev`
 3. `pipenv shell`
 4. `pre-commit install`
