@@ -15,4 +15,4 @@ repos:
     rev: 'v0.780'  # Use the sha / tag you want to point at https://github.com/python/mypy/tags 
     hooks:
     - id: mypy
-      entry: bash -c 'mypy $(find ./api -type f -name '*.py') && mypy $(find ./etl -type f -name '*.py') && mypy $(find ./nlp -type f -name '*.py')'
+      entry: bash -c 'mypy $(find ./src -type f -name '*.py')'
